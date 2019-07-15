@@ -146,3 +146,124 @@ print(total1)
 
 // Functions and Closures
 
+func greet(person: String, day: String) -> String {
+    
+    return "Hello \(person), today is \(day)."
+}
+greet(person: "Tian", day: "Monday")
+
+// custom argument label
+func greet1(person p: String, on day: String) -> String {
+    return "Hello \(p) , today is \(day)"
+}
+
+greet1(person: "Brown", on: "Friday")
+
+// write _ to use no argument label
+
+func greet2(_ person: String, on day: String) -> String {
+    return "Hello \(person) , today is \(day)"
+}
+
+greet2("Frank", on: "Tuesday")
+
+// Use a tuple to make a compound value, to return multiple values from a function
+
+func calculate(scores: [Int]) -> (min: Int, max: Int, sum: Int) {
+    
+    var min = scores[0]
+    var max = scores[0]
+    var sum = 0
+    
+    for score in scores {
+        if score > max {
+            max = score
+        } else if score < min {
+            min = score
+        }
+        
+        sum += score
+    }
+    return (min, max, sum)
+}
+
+let statis = calculate(scores: [5,2,3,56,12,6,3,11,24,12])
+print(statis)
+print(statis.0)
+print(statis.1)
+print(statis.2)
+
+// functions can be nested
+// you can use nested functions to organize the code in a function
+
+func returnFifteen() -> Int {
+    var y = 10
+    
+    func add() {
+        y += 5
+    }
+    add()
+    return y
+}
+
+returnFifteen()
+
+// return another function as its values
+
+func makeInc() -> ((Int) -> Int) {
+    
+    func addOne(number: Int) -> Int {
+        return 1 + number
+    }
+    return addOne
+}
+
+var increment = makeInc()
+increment(8)
+
+// take another function as on of its arguments
+
+func takeAnotherFuncArg(list: [Int], condition: (Int) -> Bool ) -> Bool {
+    
+    for item in list {
+        
+        if condition(item) {
+            return true
+        }
+    }
+    return false
+}
+
+func lessThanTen(_ num: Int) -> Bool {
+    return num < 10
+}
+
+var numbers = [10,29,1,33]
+takeAnotherFuncArg(list: numbers, condition: lessThanTen)
+
+// functions are actually a special case of closures
+
+let newNums = numbers.map({ (num: Int) -> Int in
+    let res = 3*num
+    return res
+})
+
+print(newNums)
+
+// Single statment closures implicitly return the value of their only statment
+
+let mappedNums = numbers.map({ number in 3 * number})
+print(mappedNums)
+
+// refer to params by number instead of by name
+
+let sortedNums = numbers.sorted{ $0 > $1}
+print(sortedNums)
+
+
+
+
+
+
+
+
