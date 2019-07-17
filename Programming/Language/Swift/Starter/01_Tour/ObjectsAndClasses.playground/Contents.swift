@@ -287,8 +287,93 @@ print(threeOfSpadesDescription) // The 3 of spades-
 //////////////////////////////////////////////////////////////////////
 // Protocols and Extensions
 
+/**
+ * Use protocol to declare a protocol
+ */
+
+protocol ExampleProtocol {
+    var simpleDescription: String { get }
+    mutating func adjust()
+}
+
+// Classes, enumerations, and structs can all adopt protocols
+
+class SimpleClass: ExampleProtocol {
+    var simpleDescription: String = "A very simple class."
+    var anotherProperty: Int = 123
+    
+    func adjust() {
+        simpleDescription += "Now 100% adjusted."
+    }
+}
+
+var a = SimpleClass()
+a.adjust()
+let aDesc = a.simpleDescription
+print(aDesc) // A very simple class.Now 100% adjusted.
 
 
+struct SimpleStructure: ExampleProtocol {
+    var simpleDescription: String = "A simple structure."
+    
+    mutating func adjust() { // notic: change must use mutating keywords.
+        simpleDescription += " (adjusted) "
+    }
+}
+
+var b = SimpleStructure()
+b.adjust()
+let bDesc = b.simpleDescription
+print(bDesc) // A simple structure. (adjusted)
+
+/**
+ * Notice the use of the mutationg keyword in the declaration of SimpleStructure to make a
+ * method that modifies the structure. The declaration of SimpleClass doesnt need any of its
+ * methods marked as mutating because methods on a class can always modify the class.
+ *
+ * Use extension to add functionality to an existing type, such as new methods and computed properties.
+ * You can use an extension to add protocol conformance to a type that is declared
+ * elsewhere, or even to a type that you imported from a library or framework.
+ */
+extension Int: ExampleProtocol {
+    var simpleDescription: String {
+        return "The number \(self)"
+    }
+    mutating func adjust() {
+        self += 10
+    }
+}
+
+enum SimpleEnum: Int {
+    case a
+    case b
+}
+
+print(7.simpleDescription) // ExampleProtocol
+var num = 10
+num.adjust()
+print(num.simpleDescription) // The number 20
+
+var sa = SimpleEnum.a
+print(sa.rawValue) // 0
+print(sa.rawValue.simpleDescription) // The number 0
+
+/**
+ * You can use a protocol name just like any other named type --
+ * for exa , to create a collection of objects that have different types but that all conform
+ * to a single protocol . When you work with values whose type is a protocol type, methods outside
+ * the protocol definition are not available.
+ */
+
+let protocolValue: ExampleProtocol = a
+print(protocolValue.simpleDescription) // A very simple class.Now 100% adjusted.
+//print(protocolValue.anotherProperty) // Value of type 'ExampleProtocol' has no member 'anotherProperty'
+
+/**
+ * Even though the variable protocolValue has a runtime type of SimpleClass, the compiler
+ * treats it as the given type of ExampleProtocol. This means that you can't accidentally
+ * access methods or properties that the class implements in addition to its protocol conformance.
+ */
 
 //////////////////////////////////////////////////////////////////////
 // Error Handling
