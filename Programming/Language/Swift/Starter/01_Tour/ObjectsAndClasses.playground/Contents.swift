@@ -378,8 +378,59 @@ print(protocolValue.simpleDescription) // A very simple class.Now 100% adjusted.
 //////////////////////////////////////////////////////////////////////
 // Error Handling
 
+/**
+ * You represent errors using any type that adopts the Error protocol.
+ */
 
+enum PrinterError: Error {
+    case outOfPaper
+    case noToner
+    case onFire
+}
 
+// Use throw to throw an error and throws to mark a function that can throw an error.
+// If you throw an error in a function, the function returns immediately and the code that
+// called the function handles the error.
+
+func send(job: Int, toPrinter printerName: String) throws -> String {
+    if printerName == "Never Has Toner" {
+        throw PrinterError.noToner
+    }
+    
+    return "Job sent"
+}
+
+do {
+    //let printerResponse = try send(job: 100, toPrinter: "Bi Sheng")
+    let printerResponse = try send(job: 100, toPrinter: "Never Has Toner")
+    print(printerResponse)
+} catch {
+    print(error)
+}
+//Job sent
+//noToner
+
+// You can add second or third blocks to catch error
+
+let printerSuccess = try? send(job: 1100, toPrinter: "Good")
+
+// Use defer to write a block of code that is excuted after all other code in the function,
+
+var fridgeIsOpen = false
+let fridgetContent = ["milk", "eggs", "leftovers"]
+
+func fridgeContains(_ food: String) -> Bool {
+    fridgeIsOpen = true
+    defer {
+        fridgeIsOpen = false
+    }
+    
+    let result = fridgetContent.contains(food)
+    return result
+}
+fridgeContains("banana")
+print(fridgeIsOpen)
+// Prints "false"
 
 
 //////////////////////////////////////////////////////////////////////
