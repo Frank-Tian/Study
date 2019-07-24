@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ShaoBing.h"
 #import "MacBook.h"
+#import "Car.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -29,6 +30,17 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"macbook, iden:%@, color:%@,  size:%ld,  price:%.f", mb.identifier, mb.color, mb.size,  mb.price);
         
+        Car *baoMa = [CarDirector buildCarWithBuilder:^id<CarBuilder> _Nullable{
+            BaoMaCarBuilder *bmBuilder = [[BaoMaCarBuilder alloc] init];
+            return bmBuilder;
+        }];
+        NSLog(@"car name : %@", baoMa.name);
+        
+        Car *baoJun = [CarDirector buildCarWithBuilder:^id<CarBuilder> _Nullable{
+            BaoJunCarBuilder *bmBuilder = [[BaoJunCarBuilder alloc] init];
+            return bmBuilder;
+        }];
+        NSLog(@"car name : %@", baoJun.name);
     }
     return 0;
 }

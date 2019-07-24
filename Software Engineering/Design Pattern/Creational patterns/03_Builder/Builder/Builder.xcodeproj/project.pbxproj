@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB09F69C22E80A4200364132 /* MacBook.m in Sources */ = {isa = PBXBuildFile; fileRef = AB09F69B22E80A4200364132 /* MacBook.m */; };
+		AB09F6A022E8131000364132 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = AB09F69F22E8131000364132 /* Car.m */; };
 		AB43563E22E8027B0070F38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43563D22E8027B0070F38B /* main.m */; };
 		AB43564722E802A50070F38B /* ShaoBing.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43564622E802A50070F38B /* ShaoBing.m */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		AB09F69A22E80A4200364132 /* MacBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MacBook.h; path = "../../../../../../../../../../../../../System/Volumes/Data/Users/july/Desktop/__5yUp/github/Study/Software Engineering/Design Pattern/Creational patterns/03_Builder/Builder/Builder/Test2/MacBook.h"; sourceTree = "<group>"; };
 		AB09F69B22E80A4200364132 /* MacBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MacBook.m; path = "../../../../../../../../../../../../../System/Volumes/Data/Users/july/Desktop/__5yUp/github/Study/Software Engineering/Design Pattern/Creational patterns/03_Builder/Builder/Builder/Test2/MacBook.m"; sourceTree = "<group>"; };
+		AB09F69E22E8131000364132 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Car.h; path = "../../../../../../../../../../../../../System/Volumes/Data/Users/july/Desktop/__5yUp/github/Study/Software Engineering/Design Pattern/Creational patterns/03_Builder/Builder/Builder/Test3/Car.h"; sourceTree = "<group>"; };
+		AB09F69F22E8131000364132 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = "../../../../../../../../../../../../../System/Volumes/Data/Users/july/Desktop/__5yUp/github/Study/Software Engineering/Design Pattern/Creational patterns/03_Builder/Builder/Builder/Test3/Car.m"; sourceTree = "<group>"; };
 		AB43563A22E8027B0070F38B /* Builder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Builder; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB43563D22E8027B0070F38B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB43564522E802A50070F38B /* ShaoBing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaoBing.h; sourceTree = "<group>"; };
@@ -53,6 +56,15 @@
 			path = Test2;
 			sourceTree = "<group>";
 		};
+		AB09F69D22E812F500364132 /* Test3 */ = {
+			isa = PBXGroup;
+			children = (
+				AB09F69E22E8131000364132 /* Car.h */,
+				AB09F69F22E8131000364132 /* Car.m */,
+			);
+			path = Test3;
+			sourceTree = "<group>";
+		};
 		AB43563122E8027B0070F38B = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +86,7 @@
 			children = (
 				AB43564422E802850070F38B /* Test1 */,
 				AB09F69922E8099E00364132 /* Test2 */,
+				AB09F69D22E812F500364132 /* Test3 */,
 				AB43563D22E8027B0070F38B /* main.m */,
 			);
 			path = Builder;
@@ -146,6 +159,7 @@
 			files = (
 				AB43564722E802A50070F38B /* ShaoBing.m in Sources */,
 				AB09F69C22E80A4200364132 /* MacBook.m in Sources */,
+				AB09F6A022E8131000364132 /* Car.m in Sources */,
 				AB43563E22E8027B0070F38B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +283,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -278,6 +293,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
