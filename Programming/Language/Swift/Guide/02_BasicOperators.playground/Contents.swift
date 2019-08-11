@@ -71,4 +71,119 @@ print(a12)
 // 246
 
 // Nil-Coalescing Operator
+//a != nil ? a! : b
+
+let defaultColorName = "red"
+var userDefinedColorName: String?   // default to nil
+//userDefinedColorName = "green"
+var colorNameToUse = userDefinedColorName ?? defaultColorName
+print(colorNameToUse) // red || green
+
+// Range Operators
+// Swift includes several range operators, which are shortcuts for expressing a range of values.
+
+// closed range operator (a...b)
+
+for index in 1...6 {
+    print("\(index) times ")
+    //    1 times
+    //    2 times
+    //    3 times
+    //    4 times
+    //    5 times
+    //    6 times
+}
+
+// Half-Open Range Operator (a..<b)
+
+let colors = ["Green","Red","Blue"]
+let count = colors.count
+
+for i in 0..<count {
+    print("Color \(i+1) is called \(colors[i])")
+    //    Color 1 is called Green
+    //    Color 2 is called Red
+    //    Color 3 is called Blue
+}
+
+// One-Sided Ranges [a...]  [...b]
+
+for color in colors[1...] {
+    print(color)
+//    Red
+//    Blue
+}
+
+for color in colors[...2] {
+    print(color)
+//    Green
+//    Red
+//    Blue
+}
+
+for color in colors[..<2] {
+    print(color)
+//    Green
+//    Red
+}
+
+// One-sided ranges can be used in other contexts,not just in subscripts.
+// You can’t iterate over a one-sided range that omits a first value,
+// because it isn’t clear where iteration should begin.
+// You can iterate over a one-sided range that omits its final value; however,
+// because the range continues indefinitely, make sure you add an explicit end condition for the loop.
+// You can also check whether a one-sided range contains a particular value, as shown in the code below.
+
+let range = ...5
+range.contains(10)  // false
+range.contains(3)   // true
+range.contains(-1)  // true
+
+// Logical Operators
+// Logical NOT (!a)
+// Logical AND (a && b)
+// Logical OR (a || b)
+
+// NOT
+let falseValue = false
+if !falseValue {
+    print("Not false")
+}
+
+// AND
+let enteredDoorCode = true
+let passedRetinaScan = false
+
+if enteredDoorCode && passedRetinaScan {
+    print("Welcome back")
+} else {
+    print("ACCESS DNEIED")
+}
+
+// OR
+
+let hasDoorKey = false
+let knowsOverridePassword = true
+
+if hasDoorKey || knowsOverridePassword {
+    print("Welcome back") // Welcome back
+} else {
+    print("ACCESS DENIED")
+}
+
+// Combining Logical Operators
+
+if enteredDoorCode && passedRetinaScan || hasDoorKey || knowsOverridePassword {
+    print("Welcome back")   // Welcome back
+} else {
+    print("ACCESS DENIED")
+}
+
+// Explicit Parentheses
+
+if (enteredDoorCode && passedRetinaScan) || hasDoorKey || knowsOverridePassword {
+    print("Welcome!")
+} else {
+    print("ACCESS DENIED")
+} // Prints "Welcome!"
 
