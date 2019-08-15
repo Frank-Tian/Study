@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Table of Contents'/>
+        <page name='1.Defining and Calling Functions'/>
+        <page name='2.Function Parameters and Return Values'/>
+        <page name='3.Function Argument Labels and Parameter Names'/>
+        <page name='4.Function Types'/>
+        <page name='5.Nested Functions'/>
+    </pages>
+</playground>
