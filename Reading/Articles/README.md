@@ -3,6 +3,7 @@
 ### Books
 
 - [ruanyf/free-books-互联网上的免费书籍](https://github.com/ruanyf/free-books)
+- [ruanyf/weekly-科技爱好者周刊，每周五发布](https://github.com/ruanyf/weekly)
 
 ### Videos
 
@@ -42,3 +43,14 @@
 - [🌟运行时Hook所有Block方法调用的技术实现](https://www.jianshu.com/p/0a3d00485c7f)
 - [🌟深入解构iOS的block闭包实现原理](https://www.jianshu.com/p/595a1776ba3a)
 - [iOS自动化测试的那些干货](https://mp.weixin.qq.com/s/7p_rD5HZy7lg5e9_9AMf-g)
+
+### Knowledge
+
+- [程序局部性原理介绍](https://mp.weixin.qq.com/s/M0Qi4G0sBd01i176RXkx-A)
+- [🌟漫画：什么是囚徒困境？](https://mp.weixin.qq.com/s/LMjsV5iG8QIJWD70oqHfsQ)
+
+
+### Algorithm
+
+- [漫画：如何找到两个数组的中位数？](https://mp.weixin.qq.com/s/8nWXRbz18W6ouK_e_sKMGw)
+
