@@ -228,9 +228,6 @@ let numbers = [16, 58, 510]
  
  You can now use the numbers array to create an array of String values, by passing a closure expression to the array’s map(_:) method as a trailing closure:
  */
-numbers.map { (number) -> String in
-    
-}
 
 let strings = numbers.map { (number) -> String in
     var number = number
@@ -244,11 +241,162 @@ let strings = numbers.map { (number) -> String in
 // strings is inferred to be of type [String]
 // its value is ["OneSix", "FiveEight", "FiveOneZero"]
 
+/*:
+ ### Capturing Values（捕获值）
+ 
+ A closure can capture constants and variables from the surrounding context in which it is defined. The closure can then refer to and modify the values of those constants and variables from within its body, even if the original scope that defined the constants and variables no longer exists.
+ 
+ 闭包能够捕获其周围上下文中定义的常量或变量。闭包能够在其内部引用和修改这些值
+ 
+ In Swift, the simplest form of a closure that can capture values is a nested function, written within the body of another function. A nested function can capture any of its outer function’s arguments and can also capture any constants and variables defined within the outer function.
+ 
+ Here’s an example of a function called makeIncrementer, which contains a nested function called incrementer. The nested incrementer() function captures two values, runningTotal and amount, from its surrounding context. After capturing these values, incrementer is returned by makeIncrementer as a closure that increments runningTotal by amount each time it is called.
+ */
+
+func makeIncrementer(forIncrement amount: Int) -> () -> Int {
+    var runningTotal = 0
+    func incrementer() -> Int {
+        runningTotal += amount
+        return runningTotal
+    }
+    return incrementer
+}
+
+/*:
+ The return type of makeIncrementer is () -> Int. This means that it returns a function, rather than a simple value. The function it returns has no parameters, and returns an Int value each time it is called. To learn how functions can return other functions, see Function Types as Return Types.
+
+ 上面的方法，返回值是 () -> Int ， 这意味着返回了一个函数，而不是一个简单的值，返回的这个函数，并没有参数，并且每次都是返回一个 int 值。
+ 
+ The makeIncrementer(forIncrement:) function defines an integer variable called runningTotal, to store the current running total of the incrementer that will be returned. This variable is initialized with a value of 0.
+
+ 这个函数 makeIncrementer(forIncrement:) 定义了一个 int 的变量，叫做 runningTotal 用来存储当前运行的全部增长数，会被作为返回，默认值为0
+ 
+ The makeIncrementer(forIncrement:) function has a single Int parameter with an argument label of forIncrement, and a parameter name of amount. The argument value passed to this parameter specifies how much runningTotal should be incremented by each time the returned incrementer function is called. The makeIncrementer function defines a nested function called incrementer, which performs the actual incrementing. This function simply adds amount to runningTotal, and returns the result.
+
+ makeIncrementer 函数有 一个 int 类型的参数，标签为forIncrement ，参数名称为 amount ，这个参数被传递到内部进行了增长。
+ 
+ When considered in isolation, the nested incrementer() function might seem unusual:
+ 
+ - Note:As an optimization, Swift may instead capture and store a copy of a value if that value is not mutated by a closure, and if the value is not mutated after the closure is created.
+
+ - Note:Swift also handles all memory management involved in disposing of variables when they are no longer needed.
+ 
+ This example sets a constant called incrementByTen to refer to an incrementer function that adds 10 to its runningTotal variable each time it is called. Calling the function multiple times shows this behavior in action:
+ */
+
+let incrementByTen = makeIncrementer(forIncrement: 10)
+
+incrementByTen()
+// returns a value of 10
+incrementByTen()
+// returns a value of 20
+incrementByTen()
+// returns a value of 30
 
 
+/*:
+ If you create a second incrementer, it will have its own stored reference to a new, separate runningTotal variable:
+ */
+
+let incrementBySeven = makeIncrementer(forIncrement: 7)
+incrementBySeven()
+// returns a value of 7
+
+/*:
+ Calling the original incrementer (incrementByTen) again continues to increment its own runningTotal variable, and does not affect the variable captured by incrementBySeven:\
+ */
+
+incrementByTen()
+// returns a value of 40
+
+/*:
+- Note:If you assign a closure to a property of a class instance, and the closure captures that instance by referring to the instance or its members, you will create a strong reference cycle between the closure and the instance. Swift uses capture lists to break these strong reference cycles. For more information, see Strong Reference Cycles for Closures.
+ 
+ ### Closures Are Reference Types (闭包是引用类型)
+
+ In the example above, incrementBySeven and incrementByTen are constants, but the closures these constants refer to are still able to increment the runningTotal variables that they have captured. This is because functions and closures are reference types.
+
+ Whenever you assign a function or a closure to a constant or a variable, you are actually setting that constant or variable to be a reference to the function or closure. In the example above, it is the choice of closure that incrementByTen refers to that is constant, and not the contents of the closure itself.
+
+ This also means that if you assign a closure to two different constants or variables, both of those constants or variables refer to the same closure.
+ */
+
+let alsoIncrementByTen = incrementByTen
+alsoIncrementByTen()
+// returns a value of 50
+
+incrementByTen()
+// returns a value of 60
+
+/*:
+ The example above shows that calling alsoIncrementByTen is the same as calling incrementByTen. Because both of them refer to the same closure, they both increment and return the same running total.
+ 
+ ### Escaping Closures(逃逸闭包)
+ 
+ An autoclosure is a closure that is automatically created to wrap an expression that’s being passed as an argument to a function. It doesn’t take any arguments, and when it’s called, it returns the value of the expression that’s wrapped inside of it. This syntactic convenience lets you omit braces around a function’s parameter by writing a normal expression instead of an explicit closure.
+
+ It’s common to call functions that take autoclosures, but it’s not common to implement that kind of function. For example, the assert(condition:message:file:line:) function takes an autoclosure for its condition and message parameters; its condition parameter is evaluated only in debug builds and its message parameter is evaluated only if condition is false.
+
+ An autoclosure lets you delay evaluation, because the code inside isn’t run until you call the closure. Delaying evaluation is useful for code that has side effects or is computationally expensive, because it lets you control when that code is evaluated. The code below shows how a closure delays evaluation.
+*/
+
+var customersInLine = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+print(customersInLine.count)
+// Prints "5"
+
+let customerProvider = { customersInLine.remove(at: 0) }
+print(customersInLine.count)
+// Prints "5"
+
+print("Now serving \(customerProvider())!")
+// Prints "Now serving Chris!"
+print(customersInLine.count)
+// Prints "4"
+
+/*:
+ Even though the first element of the customersInLine array is removed by the code inside the closure, the array element isn’t removed until the closure is actually called. If the closure is never called, the expression inside the closure is never evaluated, which means the array element is never removed. Note that the type of customerProvider is not String but () -> String—a function with no parameters that returns a string.
+
+ You get the same behavior of delayed evaluation when you pass a closure as an argument to a function.
+ */
+
+// customersInLine is ["Alex", "Ewa", "Barry", "Daniella"]
+func serve(customer customerProvider: () -> String) {
+    print("Now serving \(customerProvider())!")
+}
+serve(customer: { customersInLine.remove(at: 0) } )
+// Prints "Now serving Alex!"
 
 
+// customersInLine is ["Ewa", "Barry", "Daniella"]
+func serve(customer customerProvider: @autoclosure () -> String) {
+    print("Now serving \(customerProvider())!")
+}
+serve(customer: customersInLine.remove(at: 0))
+// Prints "Now serving Ewa!"
 
+/*:
+ - Note: Overusing autoclosures can make your code hard to understand. The context and function name should make it clear that evaluation is being deferred.
 
+ If you want an autoclosure that is allowed to escape, use both the @autoclosure and @escaping attributes. The @escaping attribute is described above in Escaping Closures.
+ */
 
+// customersInLine is ["Barry", "Daniella"]
+var customerProviders: [() -> String] = []
+func collectCustomerProviders(_ customerProvider: @autoclosure @escaping () -> String) {
+    customerProviders.append(customerProvider)
+}
+collectCustomerProviders(customersInLine.remove(at: 0))
+collectCustomerProviders(customersInLine.remove(at: 0))
+
+print("Collected \(customerProviders.count) closures.")
+// Prints "Collected 2 closures."
+for customerProvider in customerProviders {
+    print("Now serving \(customerProvider())!")
+}
+// Prints "Now serving Barry!"
+// Prints "Now serving Daniella!"
+
+/*:
+ In the code above, instead of calling the closure passed to it as its customerProvider argument, the collectCustomerProviders(_:) function appends the closure to the customerProviders array. The array is declared outside the scope of the function, which means the closures in the array can be executed after the function returns. As a result, the value of the customerProvider argument must be allowed to escape the function’s scope.
+*/
 
