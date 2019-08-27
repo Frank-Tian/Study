@@ -193,10 +193,37 @@ enum CompassPoint1: String {
 
 // You access the raw value of an enumeration case with its rawValue property:
 
-let earthsOrder = Planet.earth.rawValue
+let earthsOrder = Planet1.earth.rawValue
 // earthsOrder is 3
 
-let sunsetDirection = CompassPoint.west.rawValue
+let sunsetDirection = CompassPoint1.west.rawValue
 // sunsetDirection is "west"
 
+/*:
+ ### Initializing from a Raw Value
+
+ If you define an enumeration with a raw-value type, the enumeration automatically receives an initializer that takes a value of the raw value’s type (as a parameter called rawValue) and returns either an enumeration case or nil. You can use this initializer to try to create a new instance of the enumeration.
+ 
+ This example identifies Uranus from its raw value of 7:
+  */
+
+let possiblePlanet = Planet1(rawValue: 7)
+// possiblePlanet is of type Planet? and equals Planet.uranus
+print(possiblePlanet as Any)
+
+let positionToFind = 11
+if let somePlanet = Planet1(rawValue: positionToFind) {
+    switch somePlanet {
+    case .earth:
+        print("Mostly harmless")
+    default:
+        print("Not a safe place for humans")
+    }
+} else {
+    print("There isn't a planet at position \(positionToFind)")
+}
+// Prints "There isn't a planet at position 11"
+/*:
+ This example uses optional binding to try to access a planet with a raw value of 11. The statement if let somePlanet = Planet(rawValue: 11) creates an optional Planet, and sets somePlanet to the value of that optional Planet if it can be retrieved. In this case, it isn’t possible to retrieve a planet with a position of 11, and so the else branch is executed instead.
+ */
 
