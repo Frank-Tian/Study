@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB94AA5423AA2456001FFC46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94AA5323AA2456001FFC46 /* main.swift */; };
+		AB94AA6123AA2479001FFC46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94AA6023AA2479001FFC46 /* main.swift */; };
+		AB94AA6C23AA547E001FFC46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94AA6B23AA547E001FFC46 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB94AA4E23AA2456001FFC46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB94AA5C23AA2479001FFC46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB94AA6723AA547E001FFC46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB94AA5023AA2456001FFC46 /* 初级算法-字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "初级算法-字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB94AA5323AA2456001FFC46 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB94AA5E23AA2479001FFC46 /* 有效的字母异位词 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "有效的字母异位词"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB94AA6023AA2479001FFC46 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB94AA6923AA547E001FFC46 /* 罗马数字转整数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "罗马数字转整数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB94AA6B23AA547E001FFC46 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB94AA4D23AA2456001FFC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB94AA5B23AA2479001FFC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB94AA6623AA547E001FFC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB94AA4723AA2456001FFC46 = {
+			isa = PBXGroup;
+			children = (
+				AB94AA5223AA2456001FFC46 /* 初级算法-字符串 */,
+				AB94AA5F23AA2479001FFC46 /* 有效的字母异位词 */,
+				AB94AA6A23AA547E001FFC46 /* 罗马数字转整数 */,
+				AB94AA5123AA2456001FFC46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB94AA5123AA2456001FFC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB94AA5023AA2456001FFC46 /* 初级算法-字符串 */,
+				AB94AA5E23AA2479001FFC46 /* 有效的字母异位词 */,
+				AB94AA6923AA547E001FFC46 /* 罗马数字转整数 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB94AA5223AA2456001FFC46 /* 初级算法-字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				AB94AA5323AA2456001FFC46 /* main.swift */,
+			);
+			path = "初级算法-字符串";
+			sourceTree = "<group>";
+		};
+		AB94AA5F23AA2479001FFC46 /* 有效的字母异位词 */ = {
+			isa = PBXGroup;
+			children = (
+				AB94AA6023AA2479001FFC46 /* main.swift */,
+			);
+			path = "有效的字母异位词";
+			sourceTree = "<group>";
+		};
+		AB94AA6A23AA547E001FFC46 /* 罗马数字转整数 */ = {
+			isa = PBXGroup;
+			children = (
+				AB94AA6B23AA547E001FFC46 /* main.swift */,
+			);
+			path = "罗马数字转整数";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB94AA4F23AA2456001FFC46 /* 初级算法-字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB94AA5723AA2456001FFC46 /* Build configuration list for PBXNativeTarget "初级算法-字符串" */;
+			buildPhases = (
+				AB94AA4C23AA2456001FFC46 /* Sources */,
+				AB94AA4D23AA2456001FFC46 /* Frameworks */,
+				AB94AA4E23AA2456001FFC46 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "初级算法-字符串";
+			productName = "初级算法-字符串";
+			productReference = AB94AA5023AA2456001FFC46 /* 初级算法-字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB94AA5D23AA2479001FFC46 /* 有效的字母异位词 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB94AA6223AA2479001FFC46 /* Build configuration list for PBXNativeTarget "有效的字母异位词" */;
+			buildPhases = (
+				AB94AA5A23AA2479001FFC46 /* Sources */,
+				AB94AA5B23AA2479001FFC46 /* Frameworks */,
+				AB94AA5C23AA2479001FFC46 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "有效的字母异位词";
+			productName = "有效的字母异位词";
+			productReference = AB94AA5E23AA2479001FFC46 /* 有效的字母异位词 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB94AA6823AA547E001FFC46 /* 罗马数字转整数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB94AA6D23AA547E001FFC46 /* Build configuration list for PBXNativeTarget "罗马数字转整数" */;
+			buildPhases = (
+				AB94AA6523AA547E001FFC46 /* Sources */,
+				AB94AA6623AA547E001FFC46 /* Frameworks */,
+				AB94AA6723AA547E001FFC46 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "罗马数字转整数";
+			productName = "罗马数字转整数";
+			productReference = AB94AA6923AA547E001FFC46 /* 罗马数字转整数 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB94AA4823AA2456001FFC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Frank.Tian;
+				TargetAttributes = {
+					AB94AA4F23AA2456001FFC46 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AB94AA5D23AA2479001FFC46 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AB94AA6823AA547E001FFC46 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AB94AA4B23AA2456001FFC46 /* Build configuration list for PBXProject "初级算法-字符串" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB94AA4723AA2456001FFC46;
+			productRefGroup = AB94AA5123AA2456001FFC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB94AA4F23AA2456001FFC46 /* 初级算法-字符串 */,
+				AB94AA5D23AA2479001FFC46 /* 有效的字母异位词 */,
+				AB94AA6823AA547E001FFC46 /* 罗马数字转整数 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB94AA4C23AA2456001FFC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB94AA5423AA2456001FFC46 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB94AA5A23AA2479001FFC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB94AA6123AA2479001FFC46 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB94AA6523AA547E001FFC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB94AA6C23AA547E001FFC46 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB94AA5523AA2456001FFC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB94AA5623AA2456001FFC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB94AA5823AA2456001FFC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB94AA5923AA2456001FFC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB94AA6323AA2479001FFC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB94AA6423AA2479001FFC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB94AA6E23AA547E001FFC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB94AA6F23AA547E001FFC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB94AA4B23AA2456001FFC46 /* Build configuration list for PBXProject "初级算法-字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB94AA5523AA2456001FFC46 /* Debug */,
+				AB94AA5623AA2456001FFC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB94AA5723AA2456001FFC46 /* Build configuration list for PBXNativeTarget "初级算法-字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB94AA5823AA2456001FFC46 /* Debug */,
+				AB94AA5923AA2456001FFC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB94AA6223AA2479001FFC46 /* Build configuration list for PBXNativeTarget "有效的字母异位词" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB94AA6323AA2479001FFC46 /* Debug */,
+				AB94AA6423AA2479001FFC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB94AA6D23AA547E001FFC46 /* Build configuration list for PBXNativeTarget "罗马数字转整数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB94AA6E23AA547E001FFC46 /* Debug */,
+				AB94AA6F23AA547E001FFC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB94AA4823AA2456001FFC46 /* Project object */;
+}
