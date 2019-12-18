@@ -1,0 +1,1269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1E59D923162DFD00EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E59D823162DFD00EC454B /* main.swift */; };
+		AB1E59E423162E1A00EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E59E323162E1A00EC454B /* main.swift */; };
+		AB1E59EF23162E2600EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E59EE23162E2600EC454B /* main.swift */; };
+		AB1E59FA23162E2F00EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E59F923162E2F00EC454B /* main.swift */; };
+		AB1E5A0523162E3800EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E5A0423162E3800EC454B /* main.swift */; };
+		AB1E5A1023162E4B00EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E5A0F23162E4B00EC454B /* main.swift */; };
+		AB1E5A1B23162E5400EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E5A1A23162E5400EC454B /* main.swift */; };
+		AB1E5A2623162E6000EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E5A2523162E6000EC454B /* main.swift */; };
+		AB1E5A3123162E6D00EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E5A3023162E6D00EC454B /* main.swift */; };
+		AB1E5A3C23162E7900EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E5A3B23162E7900EC454B /* main.swift */; };
+		AB1E5A4723162E8500EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E5A4623162E8500EC454B /* main.swift */; };
+		AB1E5A4D23162FA200EC454B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1E5A4C23162F7000EC454B /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB1E59C623162D7900EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E59D423162DFD00EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E59DF23162E1A00EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E59EA23162E2600EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E59F523162E2F00EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E5A0023162E3800EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E5A0B23162E4B00EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E5A1623162E5400EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E5A2123162E6000EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E5A2C23162E6D00EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E5A3723162E7900EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB1E5A4223162E8500EC454B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB1E59C823162D7900EC454B /* 初级算法-数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "初级算法-数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E59D623162DFD00EC454B /* 从排序数组中删除重复项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "从排序数组中删除重复项"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E59D823162DFD00EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E59E123162E1A00EC454B /* 买卖股票的最佳时机 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "买卖股票的最佳时机 II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E59E323162E1A00EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E59EC23162E2600EC454B /* 旋转数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "旋转数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E59EE23162E2600EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E59F723162E2F00EC454B /* 存在重复 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "存在重复"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E59F923162E2F00EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E5A0223162E3800EC454B /* 只出现一次的数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "只出现一次的数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E5A0423162E3800EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E5A0D23162E4B00EC454B /* 两个数组的交集 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "两个数组的交集 II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E5A0F23162E4B00EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E5A1823162E5400EC454B /* 加一 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "加一"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E5A1A23162E5400EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E5A2323162E6000EC454B /* 移动零 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "移动零"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E5A2523162E6000EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E5A2E23162E6D00EC454B /* 两数之和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "两数之和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E5A3023162E6D00EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E5A3923162E7900EC454B /* 有效的数独 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "有效的数独"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E5A3B23162E7900EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E5A4423162E8500EC454B /* 旋转图像 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "旋转图像"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1E5A4623162E8500EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB1E5A4C23162F7000EC454B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1E59C523162D7900EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59D323162DFD00EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59DE23162E1A00EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59E923162E2600EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59F423162E2F00EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59FF23162E3800EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A0A23162E4B00EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A1523162E5400EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A2023162E6000EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A2B23162E6D00EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A3623162E7900EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A4123162E8500EC454B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1E59BF23162D7900EC454B = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A4B23162F7000EC454B /* 初级算法-数组 */,
+				AB1E59D723162DFD00EC454B /* 从排序数组中删除重复项 */,
+				AB1E59E223162E1A00EC454B /* 买卖股票的最佳时机 II */,
+				AB1E59ED23162E2600EC454B /* 旋转数组 */,
+				AB1E59F823162E2F00EC454B /* 存在重复 */,
+				AB1E5A0323162E3800EC454B /* 只出现一次的数字 */,
+				AB1E5A0E23162E4B00EC454B /* 两个数组的交集 II */,
+				AB1E5A1923162E5400EC454B /* 加一 */,
+				AB1E5A2423162E6000EC454B /* 移动零 */,
+				AB1E5A2F23162E6D00EC454B /* 两数之和 */,
+				AB1E5A3A23162E7900EC454B /* 有效的数独 */,
+				AB1E5A4523162E8500EC454B /* 旋转图像 */,
+				AB1E59C923162D7900EC454B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1E59C923162D7900EC454B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E59C823162D7900EC454B /* 初级算法-数组 */,
+				AB1E59D623162DFD00EC454B /* 从排序数组中删除重复项 */,
+				AB1E59E123162E1A00EC454B /* 买卖股票的最佳时机 II */,
+				AB1E59EC23162E2600EC454B /* 旋转数组 */,
+				AB1E59F723162E2F00EC454B /* 存在重复 */,
+				AB1E5A0223162E3800EC454B /* 只出现一次的数字 */,
+				AB1E5A0D23162E4B00EC454B /* 两个数组的交集 II */,
+				AB1E5A1823162E5400EC454B /* 加一 */,
+				AB1E5A2323162E6000EC454B /* 移动零 */,
+				AB1E5A2E23162E6D00EC454B /* 两数之和 */,
+				AB1E5A3923162E7900EC454B /* 有效的数独 */,
+				AB1E5A4423162E8500EC454B /* 旋转图像 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1E59D723162DFD00EC454B /* 从排序数组中删除重复项 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E59D823162DFD00EC454B /* main.swift */,
+			);
+			path = "从排序数组中删除重复项";
+			sourceTree = "<group>";
+		};
+		AB1E59E223162E1A00EC454B /* 买卖股票的最佳时机 II */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E59E323162E1A00EC454B /* main.swift */,
+			);
+			path = "买卖股票的最佳时机 II";
+			sourceTree = "<group>";
+		};
+		AB1E59ED23162E2600EC454B /* 旋转数组 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E59EE23162E2600EC454B /* main.swift */,
+			);
+			path = "旋转数组";
+			sourceTree = "<group>";
+		};
+		AB1E59F823162E2F00EC454B /* 存在重复 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E59F923162E2F00EC454B /* main.swift */,
+			);
+			path = "存在重复";
+			sourceTree = "<group>";
+		};
+		AB1E5A0323162E3800EC454B /* 只出现一次的数字 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A0423162E3800EC454B /* main.swift */,
+			);
+			path = "只出现一次的数字";
+			sourceTree = "<group>";
+		};
+		AB1E5A0E23162E4B00EC454B /* 两个数组的交集 II */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A0F23162E4B00EC454B /* main.swift */,
+			);
+			path = "两个数组的交集 II";
+			sourceTree = "<group>";
+		};
+		AB1E5A1923162E5400EC454B /* 加一 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A1A23162E5400EC454B /* main.swift */,
+			);
+			path = "加一";
+			sourceTree = "<group>";
+		};
+		AB1E5A2423162E6000EC454B /* 移动零 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A2523162E6000EC454B /* main.swift */,
+			);
+			path = "移动零";
+			sourceTree = "<group>";
+		};
+		AB1E5A2F23162E6D00EC454B /* 两数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A3023162E6D00EC454B /* main.swift */,
+			);
+			path = "两数之和";
+			sourceTree = "<group>";
+		};
+		AB1E5A3A23162E7900EC454B /* 有效的数独 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A3B23162E7900EC454B /* main.swift */,
+			);
+			path = "有效的数独";
+			sourceTree = "<group>";
+		};
+		AB1E5A4523162E8500EC454B /* 旋转图像 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A4623162E8500EC454B /* main.swift */,
+			);
+			path = "旋转图像";
+			sourceTree = "<group>";
+		};
+		AB1E5A4B23162F7000EC454B /* 初级算法-数组 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E5A4C23162F7000EC454B /* main.swift */,
+			);
+			path = "初级算法-数组";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1E59C723162D7900EC454B /* 初级算法-数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E59CF23162D7900EC454B /* Build configuration list for PBXNativeTarget "初级算法-数组" */;
+			buildPhases = (
+				AB1E59C423162D7900EC454B /* Sources */,
+				AB1E59C523162D7900EC454B /* Frameworks */,
+				AB1E59C623162D7900EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "初级算法-数组";
+			productName = "01-初级算法";
+			productReference = AB1E59C823162D7900EC454B /* 初级算法-数组 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E59D523162DFD00EC454B /* 从排序数组中删除重复项 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E59DA23162DFD00EC454B /* Build configuration list for PBXNativeTarget "从排序数组中删除重复项" */;
+			buildPhases = (
+				AB1E59D223162DFD00EC454B /* Sources */,
+				AB1E59D323162DFD00EC454B /* Frameworks */,
+				AB1E59D423162DFD00EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "从排序数组中删除重复项";
+			productName = "从排序数组中删除重复项";
+			productReference = AB1E59D623162DFD00EC454B /* 从排序数组中删除重复项 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E59E023162E1A00EC454B /* 买卖股票的最佳时机 II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E59E523162E1A00EC454B /* Build configuration list for PBXNativeTarget "买卖股票的最佳时机 II" */;
+			buildPhases = (
+				AB1E59DD23162E1A00EC454B /* Sources */,
+				AB1E59DE23162E1A00EC454B /* Frameworks */,
+				AB1E59DF23162E1A00EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "买卖股票的最佳时机 II";
+			productName = "买卖股票的最佳时机 II";
+			productReference = AB1E59E123162E1A00EC454B /* 买卖股票的最佳时机 II */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E59EB23162E2600EC454B /* 旋转数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E59F023162E2600EC454B /* Build configuration list for PBXNativeTarget "旋转数组" */;
+			buildPhases = (
+				AB1E59E823162E2600EC454B /* Sources */,
+				AB1E59E923162E2600EC454B /* Frameworks */,
+				AB1E59EA23162E2600EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旋转数组";
+			productName = "旋转数组";
+			productReference = AB1E59EC23162E2600EC454B /* 旋转数组 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E59F623162E2F00EC454B /* 存在重复 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E59FB23162E2F00EC454B /* Build configuration list for PBXNativeTarget "存在重复" */;
+			buildPhases = (
+				AB1E59F323162E2F00EC454B /* Sources */,
+				AB1E59F423162E2F00EC454B /* Frameworks */,
+				AB1E59F523162E2F00EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "存在重复";
+			productName = "存在重复";
+			productReference = AB1E59F723162E2F00EC454B /* 存在重复 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E5A0123162E3800EC454B /* 只出现一次的数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E5A0623162E3800EC454B /* Build configuration list for PBXNativeTarget "只出现一次的数字" */;
+			buildPhases = (
+				AB1E59FE23162E3800EC454B /* Sources */,
+				AB1E59FF23162E3800EC454B /* Frameworks */,
+				AB1E5A0023162E3800EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "只出现一次的数字";
+			productName = "只出现一次的数字";
+			productReference = AB1E5A0223162E3800EC454B /* 只出现一次的数字 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E5A0C23162E4B00EC454B /* 两个数组的交集 II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E5A1123162E4B00EC454B /* Build configuration list for PBXNativeTarget "两个数组的交集 II" */;
+			buildPhases = (
+				AB1E5A0923162E4B00EC454B /* Sources */,
+				AB1E5A0A23162E4B00EC454B /* Frameworks */,
+				AB1E5A0B23162E4B00EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "两个数组的交集 II";
+			productName = "两个数组的交集 II";
+			productReference = AB1E5A0D23162E4B00EC454B /* 两个数组的交集 II */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E5A1723162E5400EC454B /* 加一 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E5A1C23162E5400EC454B /* Build configuration list for PBXNativeTarget "加一" */;
+			buildPhases = (
+				AB1E5A1423162E5400EC454B /* Sources */,
+				AB1E5A1523162E5400EC454B /* Frameworks */,
+				AB1E5A1623162E5400EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加一";
+			productName = "加一";
+			productReference = AB1E5A1823162E5400EC454B /* 加一 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E5A2223162E6000EC454B /* 移动零 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E5A2723162E6000EC454B /* Build configuration list for PBXNativeTarget "移动零" */;
+			buildPhases = (
+				AB1E5A1F23162E6000EC454B /* Sources */,
+				AB1E5A2023162E6000EC454B /* Frameworks */,
+				AB1E5A2123162E6000EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "移动零";
+			productName = "移动零";
+			productReference = AB1E5A2323162E6000EC454B /* 移动零 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E5A2D23162E6D00EC454B /* 两数之和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E5A3223162E6D00EC454B /* Build configuration list for PBXNativeTarget "两数之和" */;
+			buildPhases = (
+				AB1E5A2A23162E6D00EC454B /* Sources */,
+				AB1E5A2B23162E6D00EC454B /* Frameworks */,
+				AB1E5A2C23162E6D00EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "两数之和";
+			productName = "两数之和";
+			productReference = AB1E5A2E23162E6D00EC454B /* 两数之和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E5A3823162E7900EC454B /* 有效的数独 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E5A3D23162E7900EC454B /* Build configuration list for PBXNativeTarget "有效的数独" */;
+			buildPhases = (
+				AB1E5A3523162E7900EC454B /* Sources */,
+				AB1E5A3623162E7900EC454B /* Frameworks */,
+				AB1E5A3723162E7900EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "有效的数独";
+			productName = "有效的数独";
+			productReference = AB1E5A3923162E7900EC454B /* 有效的数独 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB1E5A4323162E8500EC454B /* 旋转图像 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1E5A4823162E8500EC454B /* Build configuration list for PBXNativeTarget "旋转图像" */;
+			buildPhases = (
+				AB1E5A4023162E8500EC454B /* Sources */,
+				AB1E5A4123162E8500EC454B /* Frameworks */,
+				AB1E5A4223162E8500EC454B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旋转图像";
+			productName = "旋转图像";
+			productReference = AB1E5A4423162E8500EC454B /* 旋转图像 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1E59C023162D7900EC454B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Frank;
+				TargetAttributes = {
+					AB1E59C723162D7900EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E59D523162DFD00EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E59E023162E1A00EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E59EB23162E2600EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E59F623162E2F00EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E5A0123162E3800EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E5A0C23162E4B00EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E5A1723162E5400EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E5A2223162E6000EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E5A2D23162E6D00EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E5A3823162E7900EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB1E5A4323162E8500EC454B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AB1E59C323162D7900EC454B /* Build configuration list for PBXProject "初级算法-数组" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB1E59BF23162D7900EC454B;
+			productRefGroup = AB1E59C923162D7900EC454B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1E59C723162D7900EC454B /* 初级算法-数组 */,
+				AB1E59D523162DFD00EC454B /* 从排序数组中删除重复项 */,
+				AB1E59E023162E1A00EC454B /* 买卖股票的最佳时机 II */,
+				AB1E59EB23162E2600EC454B /* 旋转数组 */,
+				AB1E59F623162E2F00EC454B /* 存在重复 */,
+				AB1E5A0123162E3800EC454B /* 只出现一次的数字 */,
+				AB1E5A0C23162E4B00EC454B /* 两个数组的交集 II */,
+				AB1E5A1723162E5400EC454B /* 加一 */,
+				AB1E5A2223162E6000EC454B /* 移动零 */,
+				AB1E5A2D23162E6D00EC454B /* 两数之和 */,
+				AB1E5A3823162E7900EC454B /* 有效的数独 */,
+				AB1E5A4323162E8500EC454B /* 旋转图像 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1E59C423162D7900EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5A4D23162FA200EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59D223162DFD00EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E59D923162DFD00EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59DD23162E1A00EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E59E423162E1A00EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59E823162E2600EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E59EF23162E2600EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59F323162E2F00EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E59FA23162E2F00EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E59FE23162E3800EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5A0523162E3800EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A0923162E4B00EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5A1023162E4B00EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A1423162E5400EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5A1B23162E5400EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A1F23162E6000EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5A2623162E6000EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A2A23162E6D00EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5A3123162E6D00EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A3523162E7900EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5A3C23162E7900EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1E5A4023162E8500EC454B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1E5A4723162E8500EC454B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB1E59CD23162D7900EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB1E59CE23162D7900EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB1E59D023162D7900EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E59D123162D7900EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E59DB23162DFD00EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E59DC23162DFD00EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E59E623162E1A00EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E59E723162E1A00EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E59F123162E2600EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E59F223162E2600EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E59FC23162E2F00EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E59FD23162E2F00EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E5A0723162E3800EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E5A0823162E3800EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E5A1223162E4B00EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E5A1323162E4B00EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E5A1D23162E5400EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E5A1E23162E5400EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E5A2823162E6000EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E5A2923162E6000EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E5A3323162E6D00EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E5A3423162E6D00EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E5A3E23162E7900EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E5A3F23162E7900EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB1E5A4923162E8500EC454B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB1E5A4A23162E8500EC454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NH6PT5XAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1E59C323162D7900EC454B /* Build configuration list for PBXProject "初级算法-数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E59CD23162D7900EC454B /* Debug */,
+				AB1E59CE23162D7900EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E59CF23162D7900EC454B /* Build configuration list for PBXNativeTarget "初级算法-数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E59D023162D7900EC454B /* Debug */,
+				AB1E59D123162D7900EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E59DA23162DFD00EC454B /* Build configuration list for PBXNativeTarget "从排序数组中删除重复项" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E59DB23162DFD00EC454B /* Debug */,
+				AB1E59DC23162DFD00EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E59E523162E1A00EC454B /* Build configuration list for PBXNativeTarget "买卖股票的最佳时机 II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E59E623162E1A00EC454B /* Debug */,
+				AB1E59E723162E1A00EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E59F023162E2600EC454B /* Build configuration list for PBXNativeTarget "旋转数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E59F123162E2600EC454B /* Debug */,
+				AB1E59F223162E2600EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E59FB23162E2F00EC454B /* Build configuration list for PBXNativeTarget "存在重复" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E59FC23162E2F00EC454B /* Debug */,
+				AB1E59FD23162E2F00EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E5A0623162E3800EC454B /* Build configuration list for PBXNativeTarget "只出现一次的数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E5A0723162E3800EC454B /* Debug */,
+				AB1E5A0823162E3800EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E5A1123162E4B00EC454B /* Build configuration list for PBXNativeTarget "两个数组的交集 II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E5A1223162E4B00EC454B /* Debug */,
+				AB1E5A1323162E4B00EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E5A1C23162E5400EC454B /* Build configuration list for PBXNativeTarget "加一" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E5A1D23162E5400EC454B /* Debug */,
+				AB1E5A1E23162E5400EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E5A2723162E6000EC454B /* Build configuration list for PBXNativeTarget "移动零" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E5A2823162E6000EC454B /* Debug */,
+				AB1E5A2923162E6000EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E5A3223162E6D00EC454B /* Build configuration list for PBXNativeTarget "两数之和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E5A3323162E6D00EC454B /* Debug */,
+				AB1E5A3423162E6D00EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E5A3D23162E7900EC454B /* Build configuration list for PBXNativeTarget "有效的数独" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E5A3E23162E7900EC454B /* Debug */,
+				AB1E5A3F23162E7900EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1E5A4823162E8500EC454B /* Build configuration list for PBXNativeTarget "旋转图像" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1E5A4923162E8500EC454B /* Debug */,
+				AB1E5A4A23162E8500EC454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1E59C023162D7900EC454B /* Project object */;
+}
